@@ -449,5 +449,22 @@
     }
 
 
+    /*Contacto*/
+    .contacto{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .imconta{
+        margin: 0;
+        padding: 0;
+        font-size: 10rem;
+    }
+
 
 }
