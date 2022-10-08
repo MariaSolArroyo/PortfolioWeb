@@ -271,6 +271,7 @@
 .card {
     margin: 15px;
     font-size: 0.8rem;
+    width: 18rem;
 }
 
 .card i {
@@ -384,6 +385,8 @@
         padding-top: 0;
         text-align: center;
     }
+
+    /*About me*/
     .about-me{
         margin: 0;
         height: auto;
@@ -430,5 +433,16 @@
     .aptitudes .bi-boxes{
         font-size: 1rem;
     }
+    /*portfolio*/
+    .port{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card{
+        width: 16rem;
+    }
+
+
 
 }
