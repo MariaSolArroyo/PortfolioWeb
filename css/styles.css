@@ -409,6 +409,7 @@
 
     .cursos{
         width: 70%;
+        text-align: center;
     }
 
     .cursos h3{
@@ -420,6 +421,10 @@
 
     .cursos p{
         font-size: 0.6;
+    }
+
+    .cursos ul{
+        text-align: center;
     }
 
     .aptitudes{
