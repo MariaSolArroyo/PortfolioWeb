@@ -375,5 +375,52 @@
     }
     .footer{
         text-align: center;
+        padding-bottom: 10px;
     }
+
+    .info{
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .about-me{
+        margin: 0;
+        height: auto;
+    }
+    .textosobremi{
+        width: 50%;
+    }
+    .textosobremi h3{
+        font-size: 0.8rem;
+    }
+
+    .textosobremi p{
+        font-size: 0.6rem;
+    }
+
+    .cursos{
+        width: 70%;
+    }
+
+    .cursos h3{
+        font-size: 0.8rem;
+    }
+
+    .cursos p{
+        font-size: 0.6;
+    }
+
+    .aptitudes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aptitudes h3{
+        font-size: 0.9rem;
+    }
+    .aptitudes .bi-boxes{
+        font-size: 1rem;
+    }
+
 }
