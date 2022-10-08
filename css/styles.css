@@ -21,62 +21,64 @@
     align-items: center;
 }
 
-.icon{
+.icon {
     color: #6c5ce7;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.icon i{
+.icon i {
     font-size: 1.8rem;
     padding-right: 4px;
 }
 
-.nombre{
+.nombre {
     padding-top: 17px;
     padding-left: 8px;
 }
-.redes{
+
+.redes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.redes i{
+.redes i {
     padding: 8px;
     color: #6c5ce7;
     font-size: 1.2rem;
 }
 
-.redes i:hover{
+.redes i:hover {
     font-size: 1.8rem;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
 
 }
-.menu li{
+
+.menu li {
     list-style: none;
     padding: 22px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: #6c5ce7;
 }
 
-.menu a:hover{
+.menu a:hover {
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 /*INICIO*/
-.inicio{
+.inicio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,31 +87,32 @@
 
 }
 
-.inicio img{
+.inicio img {
     width: 500px;
     height: 500px;
 
 }
 
-.inicio img:hover{
+.inicio img:hover {
     opacity: 0.8;
 }
 
-.titulos{
+.titulos {
     font-weight: 900;
     font-size: 2rem;
-    color:#6c5ce7 ;
-}
-.titulos:hover{
-    font-size: 3rem;
-    color:#6c5ce7 ;
+    color: #6c5ce7;
 }
 
-.textopresentacion p{
+.titulos:hover {
+    font-size: 3rem;
+    color: #6c5ce7;
+}
+
+.textopresentacion p {
     font-size: 1.1rem;
 }
 
-.textopresentacion p:hover{
+.textopresentacion p:hover {
     font-size: 1.2rem;
     background-color: #6c5ce7;
     padding: 15px;
@@ -118,12 +121,13 @@
     margin-right: 10px;
 }
 
-.spinner-grow{
-    color:#6c5ce7 ;
+.spinner-grow {
+    color: #6c5ce7;
 
 }
+
 /*FOOTER*/
-.footer{
+.footer {
     text-align: end;
     font-size: 0.8rem;
     font-weight: 500;
@@ -132,7 +136,7 @@
 
 /*About Me*/
 
-.about-me{
+.about-me {
     display: flex;
     text-align: center;
     margin-top: 0px;
@@ -141,7 +145,8 @@
     height: 78vh;
     flex-direction: column;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,149 +154,224 @@
     padding-top: 10px;
     margin-bottom: 10px;
 }
-.textosobremi{
+
+.textosobremi {
     width: 30%;
 
 }
 
-.cursos{
+.cursos {
     width: 50%;
 }
 
-.cursos ul{
+.cursos ul {
     list-style: none;
 }
 
-.listacursos{
+.listacursos {
     font-size: 0.6rem;
     font-weight: 600;
 }
 
-.aptitudes i{
+.aptitudes i {
     font-size: 3rem;
     margin-top: 15px;
 }
 
-.apti{
+.apti {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bi-filetype-html{
-    color:#F06227 ;
+.bi-filetype-html {
+    color: #F06227;
 }
-.bi-filetype-html:hover{
+
+.bi-filetype-html:hover {
     font-size: 4rem;
 }
-.bi-filetype-css{
+
+.bi-filetype-css {
     color: #2865F0;
 }
-.bi-filetype-css:hover{
+
+.bi-filetype-css:hover {
     font-size: 4rem;
 }
-.bi-filetype-sass{
+
+.bi-filetype-sass {
     color: #D06D9F;
 }
-.bi-filetype-sass:hover{
+
+.bi-filetype-sass:hover {
     font-size: 4rem;
 }
-.bi-filetype-js{
+
+.bi-filetype-js {
     color: #F7DE1F;
 }
-.bi-filetype-js:hover{
+
+.bi-filetype-js:hover {
     font-size: 4rem;
 }
-.bi-filetype-sql:hover{
+
+.bi-filetype-sql:hover {
     font-size: 4rem;
 
 }
-.bi-filetype-py{
-    color:#3773a7;
+
+.bi-filetype-py {
+    color: #3773a7;
 }
-.bi-filetype-py:hover{
+
+.bi-filetype-py:hover {
     font-size: 4rem;
 }
-.bi-file-earmark-pdf{
+
+.bi-file-earmark-pdf {
     color: #FF7D01;
 }
-.bi-file-earmark-pdf:hover{
-    font-size: 4rem;
-}
-.bi-bootstrap{
-    color: #681858;
-}
-.bi-bootstrap:hover{
-    font-size: 4rem;
-}
-.bi-wordpress{
-    color: #00749B;
-}
-.bi-wordpress:hover{
+
+.bi-file-earmark-pdf:hover {
     font-size: 4rem;
 }
 
-.bi-info-circle,.bi-bookmark-check,.bi-boxes{
+.bi-bootstrap {
+    color: #681858;
+}
+
+.bi-bootstrap:hover {
+    font-size: 4rem;
+}
+
+.bi-wordpress {
+    color: #00749B;
+}
+
+.bi-wordpress:hover {
+    font-size: 4rem;
+}
+
+.bi-info-circle,
+.bi-bookmark-check,
+.bi-boxes {
     font-size: 1.5rem;
 }
 
 
 /*Portfolio*/
 
-.port{
+.port {
     height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card{
+.card {
     margin: 15px;
     font-size: 0.8rem;
 }
-.card i{
+
+.card i {
     color: #6c5ce7;
 }
 
 
-.card a{
+.card a {
     text-decoration: none;
     color: #6c5ce7;
     font-weight: 700;
 }
-.contacto{
+
+.contacto {
     height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imconta{
-    font-size: 16rem;  
+.imconta {
+    font-size: 16rem;
     margin-top: 5%;
-    margin-left: 20%;  
+    margin-left: 20%;
     color: #6c5ce7;
 }
 
-.contacto{
+.contacto {
     margin-top: 20px;
     margin-left: 32px;
 }
 
-.titulos2{
-    font-weight:700;
+.titulos2 {
+    font-weight: 700;
     font-size: 1rem;
 }
 
-.mb-3{
+.mb-3 {
     margin-top: 30px;
 }
 
-.bi-envelope{
+.bi-envelope {
     margin-top: 23px;
 }
 
-.btn{
+.btn {
     background: #6c5ce7;
     color: #F3F0E9;
+}
+
+@media (max-width:1196px) {
+    .container{
+        height: auto;
+    }
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu ul li {
+        padding: 0;
+    }
+
+    .redes{
+        text-align: center;
+    }
+    .redes i {
+        font-size: 1rem;
+    }
+
+    .inicio{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .inicio img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .textopresentacion{
+        width: 50%;
+        margin-top: 6px;
+    }
+
+    .titulos{
+        font-size: 1rem;
+        
+    }
+    .textopresentacion p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .textopresentacion h3{
+        text-align: center;
+    }
 }
