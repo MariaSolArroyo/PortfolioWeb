@@ -396,6 +396,10 @@
         font-size: 0.8rem;
     }
 
+    .textosobremi i{
+        font-size: 0.9rem;
+    }
+
     .textosobremi p{
         font-size: 0.6rem;
     }
@@ -406,6 +410,9 @@
 
     .cursos h3{
         font-size: 0.8rem;
+    }
+    .cursos .bi-bookmark-check{
+        font-size: 0.9rem;
     }
 
     .cursos p{
