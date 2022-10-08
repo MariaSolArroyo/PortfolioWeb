@@ -329,7 +329,7 @@
 
 
 /*responsive*/
-@media (max-width:1196px) {
+@media (max-width:1250px) {
     .container{
         height: auto;
     }
