@@ -322,6 +322,13 @@
     color: #F3F0E9;
 }
 
+.botonenviar{
+    text-decoration: none;
+    color: #F3F0E9;
+}
+
+
+/*responsive*/
 @media (max-width:1196px) {
     .container{
         height: auto;
