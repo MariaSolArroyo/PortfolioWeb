@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: #F3F0E9;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #747479;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    color: #6c5ce7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i{
+    font-size: 1.8rem;
+    padding-right: 4px;
+}
+
+.nombre{
+    padding-top: 17px;
+    padding-left: 8px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes i{
+    padding: 8px;
+    color: #6c5ce7;
+    font-size: 1.2rem;
+}
+
+.redes i:hover{
+    font-size: 1.8rem;
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+
+}
+.menu li{
+    list-style: none;
+    padding: 22px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #6c5ce7;
+}
+
+.menu a:hover{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/*INICIO*/
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inicio img{
+    width: 500px;
+    height: 500px;
+
+}
+
+.inicio img:hover{
+    opacity: 0.8;
+}
+
+.titulos{
+    font-weight: 900;
+    font-size: 2rem;
+    color:#6c5ce7 ;
+}
+.titulos:hover{
+    font-size: 3rem;
+    color:#6c5ce7 ;
+}
+
+.textopresentacion p{
+    font-size: 1.1rem;
+}
+
+.textopresentacion p:hover{
+    font-size: 1.2rem;
+    background-color: #6c5ce7;
+    padding: 15px;
+    color: #F3F0E9;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.spinner-grow{
+    color:#6c5ce7 ;
+
+}
+/*FOOTER*/
+.footer{
+    text-align: end;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+/*About Me*/
+
+.about-me{
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.textosobremi{
+    width: 30%;
+
+}
+
+.cursos{
+    width: 50%;
+}
+
+.cursos ul{
+    list-style: none;
+}
+
+.listacursos{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.aptitudes i{
+    font-size: 3rem;
+    margin-top: 15px;
+}
+
+.apti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-filetype-html{
+    color:#F06227 ;
+}
+.bi-filetype-html:hover{
+    font-size: 4rem;
+}
+.bi-filetype-css{
+    color: #2865F0;
+}
+.bi-filetype-css:hover{
+    font-size: 4rem;
+}
+.bi-filetype-sass{
+    color: #D06D9F;
+}
+.bi-filetype-sass:hover{
+    font-size: 4rem;
+}
+.bi-filetype-js{
+    color: #F7DE1F;
+}
+.bi-filetype-js:hover{
+    font-size: 4rem;
+}
+.bi-filetype-sql:hover{
+    font-size: 4rem;
+
+}
+.bi-filetype-py{
+    color:#3773a7;
+}
+.bi-filetype-py:hover{
+    font-size: 4rem;
+}
+.bi-file-earmark-pdf{
+    color: #FF7D01;
+}
+.bi-file-earmark-pdf:hover{
+    font-size: 4rem;
+}
+.bi-bootstrap{
+    color: #681858;
+}
+.bi-bootstrap:hover{
+    font-size: 4rem;
+}
+.bi-wordpress{
+    color: #00749B;
+}
+.bi-wordpress:hover{
+    font-size: 4rem;
+}
+
+.bi-info-circle,.bi-bookmark-check,.bi-boxes{
+    font-size: 1.5rem;
+}
+
+
+/*Portfolio*/
+
+.port{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 15px;
+    font-size: 0.8rem;
+}
+.card i{
+    color: #6c5ce7;
+}
+
+
+.card a{
+    text-decoration: none;
+    color: #6c5ce7;
+    font-weight: 700;
+}
+.contacto{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imconta{
+    font-size: 16rem;  
+    margin-top: 5%;
+    margin-left: 20%;  
+    color: #6c5ce7;
+}
+
+.contacto{
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.titulos2{
+    font-weight:700;
+    font-size: 1rem;
+}
+
+.mb-3{
+    margin-top: 30px;
+}
+
+.bi-envelope{
+    margin-top: 23px;
+}
+
+.btn{
+    background: #6c5ce7;
+    color: #F3F0E9;
+}
