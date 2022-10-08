@@ -11,7 +11,6 @@
     margin-bottom: 20px;
     border-radius: 15px;
     box-shadow: 1px 1px 1px #747479;
-    height: 78vh;
 
 }
 
@@ -372,6 +371,9 @@
     }
 
     .textopresentacion h3{
+        text-align: center;
+    }
+    .footer{
         text-align: center;
     }
 }
