@@ -387,6 +387,7 @@
     .about-me{
         margin: 0;
         height: auto;
+        text-align: center;
     }
     .textosobremi{
         width: 50%;
