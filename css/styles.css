@@ -109,6 +109,7 @@
 
 .textopresentacion p {
     font-size: 1.1rem;
+    padding-right: 2px;
 }
 
 .textopresentacion p:hover {
@@ -349,6 +350,8 @@
 
     .redes{
         text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
     .redes i {
         font-size: 1rem;
@@ -374,8 +377,9 @@
         
     }
     .textopresentacion p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-align: center;
+
     }
 
     .textopresentacion h3{
@@ -432,6 +436,8 @@
 
     .cursos ul{
         text-align: center;
+        padding-left: 0;
+
     }
 
     .aptitudes{
