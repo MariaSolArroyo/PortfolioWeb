@@ -56,7 +56,7 @@
 
             <section class="contacto">
 
-                <form class="conta" action="../php/enviar.php" method="post">
+                <form class="conta" action="mailto:mariasolarroyoc@gmail.com?subjet=Contacto pagina" method="post" enctype="text/plain">
                     <h3 class="titulos">
                         Contacto
                     </h3>
@@ -66,20 +66,21 @@
                         <h3 class="titulos titulos2">
                             Dejame tu comentario...
                         </h3>
-                        <label for="exampleFormControlInput1"
+                        <label for="email"
                             class="form-label">Email</label>
                         <input type="email" class="form-control"
-                            id="exampleFormControlInput1"
+                            id="email"
                             placeholder="name@example.com" name="email">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1"
+                        <label for="mensaje"
                             class="form-label">Mensaje</label>
                         <textarea class="form-control"
-                            id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
+                            id="mensaje" rows="3" name="mensaje"></textarea>
                     </div>
                     <div class="col-auto">
-                        <button type="submit" class="btn mb-3"><a class="botonenviar" href="../index.html">Enviar </a></button>
+                        <input type="submit" class="btn mb-3" value="Enviar" >
+                        <a class="botonenviar" href="../index.html">Enviar </a>
                     </div>
                 </form>
 

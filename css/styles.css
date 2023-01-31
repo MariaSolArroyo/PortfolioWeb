@@ -249,6 +249,10 @@
     color: #00749B;
 }
 
+.bi-filetype-psd{
+    color: #F06227;
+}
+
 .bi-wordpress:hover {
     font-size: 4rem;
 }
